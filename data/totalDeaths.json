@@ -1,12 +1,60 @@
 {
    "totalDeaths":[
       {
-         "week": 1,
+         "week":1,
          "total":10
       },
       {
-         "week": 2,
-         "total":20
+         "week":2,
+         "total":62
+      },
+      {
+         "week":3,
+         "total":282
+      },
+      {
+         "week":4,
+         "total":610
+      },
+      {
+         "week":5,
+         "total":650
+      },
+      {
+         "week":6,
+         "total":660
+      },
+      {
+         "week":7,
+         "total":526
+      },
+      {
+         "week":8,
+         "total":415
+      },
+      {
+         "week":9,
+         "total":336
+      },
+      {
+         "week":10,
+         "total":230
+      },
+      {
+         "week":11,
+         "total":131
+      },
+      {
+         "week":12,
+         "total":89
+      },
+      {
+         "week":13,
+         "total":69
+      },
+      {
+         "week":14,
+         "total":49
       }
    ]
 }
