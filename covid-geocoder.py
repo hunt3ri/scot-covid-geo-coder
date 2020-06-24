@@ -11,12 +11,12 @@ def get_covid_data_for_week(week_id: str):
     """ Function extracts specified weeks data from raw csv file """
     pd.set_option("display.max_columns", None)
     pd.set_option("display.width", 400)
-    covid_df = pd.read_csv("covid_deaths_scot_raw_geo_names.csv")
+    covid_df = pd.read_csv("all_covid_deaths_raw_geo_names.csv")
     week_df = covid_df[(covid_df["DateCode"] == f"w/c {week_id}") &
-                       (covid_df["Cause Of Death"] == "COVID-19 related") &
+                       (covid_df["CauseOfDeath"] == "COVID-19 related") &
                        (covid_df["Sex"] == "All") &
                        (covid_df["Age"] == "All") &
-                       (covid_df["Location Of Death"] == "All") &
+                       (covid_df["LocationOfDeath"] == "All") &
                        (covid_df["Value"] > 0) &
                        (covid_df["FeatureCode"].str.contains("S12"))]
 
