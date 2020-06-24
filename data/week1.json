@@ -1,0 +1,125 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.979507,
+                    55.650529
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "North Ayrshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.253114,
+                    55.857879
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Glasgow City",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.123868,
+                    56.228955
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Fife",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.62922,
+                    57.241867
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Aberdeenshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.173628,
+                    57.155784
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Aberdeen City",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.542747,
+                    55.847821
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Renfrewshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.573771,
+                    55.885024
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "West Lothian",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.288375,
+                    55.926502
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "City of Edinburgh",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
