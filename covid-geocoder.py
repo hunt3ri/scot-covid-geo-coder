@@ -76,6 +76,16 @@ def set_lat_long(week_data_file):
     week_df.to_csv(file_name, index=False)
     return file_name, death_cnt
 
+def get_weight(deaths: int):
+    """ Simple weight approach """
+    # TODO improve based on total deaths
+    if deaths <= 5:
+        return 0.7
+    elif deaths <= 20:
+        return 0.8
+    else:
+        return 0.9
+
 
 def gen_geojson(file_name: str, outputfile: str):
     """ Generate GeoJson file for heatmap """
@@ -83,7 +93,7 @@ def gen_geojson(file_name: str, outputfile: str):
     features_list = []
 
     for index, row in stats_df.iterrows():
-        feature_properties = {"deaths": row["Value"], "weight": 0.7, "place": row["official_name"]}
+        feature_properties = {"deaths": row["Value"], "weight": get_weight(row["Value"]), "place": row["official_name"]}
         feature = Feature(geometry=Point((row["lon"], row["lat"])), properties=feature_properties)
         features_list.append(feature)
 
@@ -102,6 +112,6 @@ if __name__ == "__main__":
         raise ValueError("ERROR: Set OS_API_TOKEN in .env file")
 
     # TODO could work with total deaths, validate etc
-    week_data_file = get_covid_data_for_week("2020-03-16")
+    week_data_file = get_covid_data_for_week("2020-04-13")
     lat_lon_file, total_deaths = set_lat_long(week_data_file)
-    gen_geojson(lat_lon_file, "week1.json")
+    gen_geojson(lat_lon_file, "week5.json")
