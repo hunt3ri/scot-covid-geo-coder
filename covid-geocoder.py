@@ -20,6 +20,7 @@ def get_covid_data_for_week(week_id: str):
                        (covid_df["Value"] > 0) &
                        (covid_df["FeatureCode"].str.contains("S12"))]
 
+    week_df.sort_values(by=["Value", "official_name"], ascending=[False, True], inplace=True)
     print(week_df.head(50))
 
     week_data = f"week-{week_id}-covid.csv"
@@ -112,6 +113,6 @@ if __name__ == "__main__":
         raise ValueError("ERROR: Set OS_API_TOKEN in .env file")
 
     # TODO could work with total deaths, validate etc
-    week_data_file = get_covid_data_for_week("2020-07-06")
+    week_data_file = get_covid_data_for_week("2020-03-16")
     lat_lon_file, total_deaths = set_lat_long(week_data_file)
-    gen_geojson(lat_lon_file, "week17.json")
+    gen_geojson(lat_lon_file, "week1.json")
