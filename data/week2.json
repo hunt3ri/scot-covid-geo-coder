@@ -3,14 +3,59 @@
         {
             "geometry": {
                 "coordinates": [
-                    -3.123868,
-                    56.228955
+                    -4.253114,
+                    55.857879
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 4,
-                "place": "Fife",
+                "deaths": 7,
+                "place": "Glasgow City",
+                "weight": 0.8
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.790649,
+                    55.997334
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 6,
+                "place": "Falkirk",
+                "weight": 0.8
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.501554,
+                    56.1235
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 5,
+                "place": "Argyll and Bute",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.979507,
+                    55.650529
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 5,
+                "place": "North Ayrshire",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -33,89 +78,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    -4.253114,
-                    55.857879
+                    -3.123868,
+                    56.228955
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 7,
-                "place": "Glasgow City",
-                "weight": 0.8
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -2.917728,
-                    56.724178
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "Angus",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.819526,
-                    56.565791
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "Perth and Kinross",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -4.688581,
-                    55.268757
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "South Ayrshire",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.811036,
-                    55.612833
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 3,
-                "place": "South Lanarkshire",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -4.517679,
-                    55.984911
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "West Dunbartonshire",
+                "deaths": 4,
+                "place": "Fife",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -131,66 +101,6 @@
             "properties": {
                 "deaths": 3,
                 "place": "City of Edinburgh",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -5.501554,
-                    56.1235
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 5,
-                "place": "Argyll and Bute",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.573771,
-                    55.885024
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "West Lothian",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -2.62922,
-                    57.241867
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "Aberdeenshire",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.7422,
-                    56.150476
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "Clackmannanshire",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -228,36 +138,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    -3.110378,
-                    55.832216
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "Midlothian",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.790649,
-                    55.997334
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 6,
-                "place": "Falkirk",
-                "weight": 0.8
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     -2.787718,
                     55.576476
                 ],
@@ -273,14 +153,29 @@
         {
             "geometry": {
                 "coordinates": [
-                    -4.979507,
-                    55.650529
+                    -3.811036,
+                    55.612833
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 5,
-                "place": "North Ayrshire",
+                "deaths": 3,
+                "place": "South Lanarkshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.110378,
+                    55.832216
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Midlothian",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -303,6 +198,96 @@
         {
             "geometry": {
                 "coordinates": [
+                    -3.819526,
+                    56.565791
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Perth and Kinross",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.517679,
+                    55.984911
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "West Dunbartonshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.573771,
+                    55.885024
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "West Lothian",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.62922,
+                    57.241867
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Aberdeenshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.917728,
+                    56.724178
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Angus",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.7422,
+                    56.150476
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Clackmannanshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     -4.359569,
                     55.753141
                 ],
@@ -311,6 +296,21 @@
             "properties": {
                 "deaths": 1,
                 "place": "East Renfrewshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.688581,
+                    55.268757
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "South Ayrshire",
                 "weight": 0.7
             },
             "type": "Feature"

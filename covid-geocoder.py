@@ -113,6 +113,6 @@ if __name__ == "__main__":
         raise ValueError("ERROR: Set OS_API_TOKEN in .env file")
 
     # TODO could work with total deaths, validate etc
-    week_data_file = get_covid_data_for_week("2020-03-16")
+    week_data_file = get_covid_data_for_week("2020-03-23")
     lat_lon_file, total_deaths = set_lat_long(week_data_file)
-    gen_geojson(lat_lon_file, "week1.json")
+    gen_geojson(lat_lon_file, "week2.json")
