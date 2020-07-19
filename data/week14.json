@@ -3,60 +3,15 @@
         {
             "geometry": {
                 "coordinates": [
-                    -2.96965,
-                    56.477109
+                    -4.253114,
+                    55.857879
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 1,
-                "place": "Dundee City",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.123868,
-                    56.228955
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "Fife",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.573771,
-                    55.885024
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "West Lothian",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.948431,
-                    55.874833
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 3,
-                "place": "North Lanarkshire",
-                "weight": 0.7
+                "deaths": 9,
+                "place": "Glasgow City",
+                "weight": 0.8
             },
             "type": "Feature"
         },
@@ -78,119 +33,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    -4.542747,
-                    55.847821
+                    -3.811036,
+                    55.612833
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 3,
-                "place": "Renfrewshire",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -4.359569,
-                    55.753141
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "East Renfrewshire",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.790649,
-                    55.997334
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "Falkirk",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -4.742705,
-                    55.904407
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "Inverclyde",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -2.787718,
-                    55.576476
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "Scottish Borders",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -4.253114,
-                    55.857879
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 9,
-                "place": "Glasgow City",
-                "weight": 0.8
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -2.917728,
-                    56.724178
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "Angus",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.7422,
-                    56.150476
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "Clackmannanshire",
+                "deaths": 5,
+                "place": "South Lanarkshire",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -213,14 +63,119 @@
         {
             "geometry": {
                 "coordinates": [
-                    -3.110378,
-                    55.832216
+                    -2.62922,
+                    57.241867
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 1,
-                "place": "Midlothian",
+                "deaths": 3,
+                "place": "Aberdeenshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.948431,
+                    55.874833
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 3,
+                "place": "North Lanarkshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.542747,
+                    55.847821
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 3,
+                "place": "Renfrewshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.7422,
+                    56.150476
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Clackmannanshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.790649,
+                    55.997334
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Falkirk",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.123868,
+                    56.228955
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Fife",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.742705,
+                    55.904407
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Inverclyde",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.573771,
+                    55.885024
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "West Lothian",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -243,14 +198,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    -2.62922,
-                    57.241867
+                    -2.917728,
+                    56.724178
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 3,
-                "place": "Aberdeenshire",
+                "deaths": 1,
+                "place": "Angus",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -258,14 +213,59 @@
         {
             "geometry": {
                 "coordinates": [
-                    -3.811036,
-                    55.612833
+                    -2.96965,
+                    56.477109
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 5,
-                "place": "South Lanarkshire",
+                "deaths": 1,
+                "place": "Dundee City",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.359569,
+                    55.753141
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "East Renfrewshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.110378,
+                    55.832216
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Midlothian",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.787718,
+                    55.576476
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Scottish Borders",
                 "weight": 0.7
             },
             "type": "Feature"

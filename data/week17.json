@@ -3,6 +3,51 @@
         {
             "geometry": {
                 "coordinates": [
+                    -3.288375,
+                    55.926502
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 3,
+                "place": "City of Edinburgh",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.573771,
+                    55.885024
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "West Lothian",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.62922,
+                    57.241867
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Aberdeenshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     -2.96965,
                     56.477109
                 ],
@@ -11,36 +56,6 @@
             "properties": {
                 "deaths": 1,
                 "place": "Dundee City",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.948431,
-                    55.874833
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "North Lanarkshire",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.819526,
-                    56.565791
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "Perth and Kinross",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -93,6 +108,36 @@
         {
             "geometry": {
                 "coordinates": [
+                    -3.948431,
+                    55.874833
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "North Lanarkshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.819526,
+                    56.565791
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Perth and Kinross",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     -2.787718,
                     55.576476
                 ],
@@ -101,51 +146,6 @@
             "properties": {
                 "deaths": 1,
                 "place": "Scottish Borders",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -2.62922,
-                    57.241867
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "Aberdeenshire",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.288375,
-                    55.926502
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 3,
-                "place": "City of Edinburgh",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.573771,
-                    55.885024
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "West Lothian",
                 "weight": 0.7
             },
             "type": "Feature"

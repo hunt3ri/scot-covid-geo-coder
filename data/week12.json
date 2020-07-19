@@ -3,45 +3,15 @@
         {
             "geometry": {
                 "coordinates": [
-                    -2.96965,
-                    56.477109
+                    -3.811036,
+                    55.612833
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 3,
-                "place": "Dundee City",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -4.22555,
-                    55.956029
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 6,
-                "place": "East Dunbartonshire",
+                "deaths": 13,
+                "place": "South Lanarkshire",
                 "weight": 0.8
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.123868,
-                    56.228955
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 3,
-                "place": "Fife",
-                "weight": 0.7
             },
             "type": "Feature"
         },
@@ -63,60 +33,30 @@
         {
             "geometry": {
                 "coordinates": [
-                    -4.359569,
-                    55.753141
+                    -2.917728,
+                    56.724178
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 3,
-                "place": "East Renfrewshire",
-                "weight": 0.7
+                "deaths": 6,
+                "place": "Angus",
+                "weight": 0.8
             },
             "type": "Feature"
         },
         {
             "geometry": {
                 "coordinates": [
-                    -4.742705,
-                    55.904407
+                    -4.22555,
+                    55.956029
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 2,
-                "place": "Inverclyde",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -4.761266,
-                    57.579122
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "Highland",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -3.790649,
-                    55.997334
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 3,
-                "place": "Falkirk",
-                "weight": 0.7
+                "deaths": 6,
+                "place": "East Dunbartonshire",
+                "weight": 0.8
             },
             "type": "Feature"
         },
@@ -138,29 +78,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    -4.542747,
-                    55.847821
+                    -2.173628,
+                    57.155784
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 4,
-                "place": "Renfrewshire",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -4.517679,
-                    55.984911
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 1,
-                "place": "West Dunbartonshire",
+                "deaths": 5,
+                "place": "Aberdeen City",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -198,6 +123,21 @@
         {
             "geometry": {
                 "coordinates": [
+                    -4.542747,
+                    55.847821
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 4,
+                "place": "Renfrewshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     -3.573771,
                     55.885024
                 ],
@@ -213,29 +153,59 @@
         {
             "geometry": {
                 "coordinates": [
-                    -2.917728,
-                    56.724178
+                    -2.96965,
+                    56.477109
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 6,
-                "place": "Angus",
-                "weight": 0.8
+                "deaths": 3,
+                "place": "Dundee City",
+                "weight": 0.7
             },
             "type": "Feature"
         },
         {
             "geometry": {
                 "coordinates": [
-                    -2.720885,
-                    55.941987
+                    -4.359569,
+                    55.753141
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 1,
-                "place": "East Lothian",
+                "deaths": 3,
+                "place": "East Renfrewshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.790649,
+                    55.997334
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 3,
+                "place": "Falkirk",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.123868,
+                    56.228955
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 3,
+                "place": "Fife",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -258,14 +228,44 @@
         {
             "geometry": {
                 "coordinates": [
-                    -4.688581,
-                    55.268757
+                    -4.314342,
+                    55.485361
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 1,
-                "place": "South Ayrshire",
+                "deaths": 2,
+                "place": "East Ayrshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.761266,
+                    57.579122
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Highland",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.742705,
+                    55.904407
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Inverclyde",
                 "weight": 0.7
             },
             "type": "Feature"
@@ -288,6 +288,36 @@
         {
             "geometry": {
                 "coordinates": [
+                    -2.720885,
+                    55.941987
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "East Lothian",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.688581,
+                    55.268757
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "South Ayrshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     -4.340985,
                     56.244312
                 ],
@@ -303,44 +333,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    -3.811036,
-                    55.612833
+                    -4.517679,
+                    55.984911
                 ],
                 "type": "Point"
             },
             "properties": {
-                "deaths": 13,
-                "place": "South Lanarkshire",
-                "weight": 0.8
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -2.173628,
-                    57.155784
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 5,
-                "place": "Aberdeen City",
-                "weight": 0.7
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -4.314342,
-                    55.485361
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "deaths": 2,
-                "place": "East Ayrshire",
+                "deaths": 1,
+                "place": "West Dunbartonshire",
                 "weight": 0.7
             },
             "type": "Feature"
