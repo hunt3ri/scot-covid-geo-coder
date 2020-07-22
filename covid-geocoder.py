@@ -13,10 +13,10 @@ def get_covid_data_for_week(week_id: str):
     pd.set_option("display.width", 400)
     covid_df = pd.read_csv("all_covid_deaths_raw_geo_names.csv")
     week_df = covid_df[(covid_df["DateCode"] == f"w/c {week_id}") &
-                       (covid_df["CauseOfDeath"] == "COVID-19 related") &
+                       (covid_df["Cause Of Death"] == "COVID-19 related") &
                        (covid_df["Sex"] == "All") &
                        (covid_df["Age"] == "All") &
-                       (covid_df["LocationOfDeath"] == "All") &
+                       (covid_df["Location Of Death"] == "All") &
                        (covid_df["Value"] > 0) &
                        (covid_df["FeatureCode"].str.contains("S12"))]
 
@@ -113,6 +113,6 @@ if __name__ == "__main__":
         raise ValueError("ERROR: Set OS_API_TOKEN in .env file")
 
     # TODO could work with total deaths, validate etc
-    week_data_file = get_covid_data_for_week("2020-07-06")
+    week_data_file = get_covid_data_for_week("2020-07-13")
     lat_lon_file, total_deaths = set_lat_long(week_data_file)
-    gen_geojson(lat_lon_file, "week17.json")
+    gen_geojson(lat_lon_file, "week18.json")
