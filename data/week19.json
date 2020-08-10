@@ -1,0 +1,95 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.123868,
+                    56.228955
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Fife",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.742705,
+                    55.904407
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 2,
+                "place": "Inverclyde",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.253114,
+                    55.857879
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "Glasgow City",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.979507,
+                    55.650529
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "North Ayrshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.948431,
+                    55.874833
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "North Lanarkshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -3.811036,
+                    55.612833
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "deaths": 1,
+                "place": "South Lanarkshire",
+                "weight": 0.7
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
